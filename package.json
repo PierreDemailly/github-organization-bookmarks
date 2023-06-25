@@ -8,9 +8,14 @@
   },
   "main": "./bin/github-organization-bookmarks.mjs",
   "bin": {
-    "github-orga-bookmarks": "./bin/github-organization-bookmarks.mjs"
+    "ghorgabm": "./bin/github-organization-bookmarks.mjs"
   },
-  "keywords": ["github", "organization", "chrome", "bookmarks"],
+  "keywords": [
+    "github",
+    "organization",
+    "chrome",
+    "bookmarks"
+  ],
   "author": "PierreDemailly <pierredemailly.pro@gmail.com>",
   "license": "MIT",
   "type": "module",
