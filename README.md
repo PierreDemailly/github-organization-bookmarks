@@ -1,23 +1,17 @@
 # github-organization-bookmarks
 
-![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/github-organization-bookmarks/main/package.json&query=$.version&label=Version)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/github-organization-bookmarks/graphs/commit-activity)
+![version](https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&url=https://raw.githubusercontent.com/PierreDemailly/github-organization-bookmarks/main/package.json&query=$.version&label=Version)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/PierreDemailly/github-organization-bookmarks/graphs/commit-activity)
 [![mit](https://img.shields.io/badge/License-ISC-blue.svg?style=for-the-badge)](https://github.com/PierreDemailly/github-organization-bookmarks/blob/main/LICENSE)
 
-Generate bookmarks including all repositories in a GitHub organization
+Generate bookmarks including all repositories in a GitHub organization.
 
 ## Requirements
-- [Node.js](https://nodejs.org/en/) v14 or higher
+- [Node.js](https://nodejs.org/en/) v16 or higher
 
 ## Getting Started
 
-This package is available in the Node Package Repository and can be easily installed with [npx](https://docs.npmjs.com/cli/v9/commands/npx).
-
-```bash
-$ npx install github-organization-bookmarks
-```
-
-Go anywhere you want the bookmarks to be generated
+Go anywhere you want the bookmarks to be generated:
 
 ```bash
 cd
@@ -32,9 +26,11 @@ For instance, if you want to generate bookmarks for all repositories within **No
 npx github-organization-bookmarks NodeSecure
 ```
 
-It will generate a `NodeSecure.html` file at `~/myAwesomeBookmarks` (or in the directory you ran the tool)
+It will generate a `NodeSecure.html` file at `~/myAwesomeBookmarks` (or in the directory you ran the tool).
 
 Go to [Chrome bookmarks](chrome://bookmarks/) and import the generated html file.
+
+> **Note** Generated bookmarks should be compatible with most browsers.
 
 ## Authentication
 
@@ -54,3 +50,8 @@ GITHUB_TOKEN=your_token
 ```
 
 You can create a GitHub token [here](https://github.com/settings/tokens)
+
+## Bookmark icons
+
+Bookmarks are generated without icon for technical reason, your browser will automatically add it if you already visited the repositories.
+Else, you can `Open all` your bookmark folder to open each repository, it will then add icons automatically.
