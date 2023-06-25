@@ -32,6 +32,8 @@ Go to [Chrome bookmarks](chrome://bookmarks/) and import the generated html file
 
 > **Note** Generated bookmarks should be compatible with most browsers.
 
+> **Note** The tool fetch maximum 100 repositories
+
 ## Authentication
 
 If you have access to private repositories in the GitHub organization (i.e, you are owner), you'll need to use a GitHub token to authenticate yourself.
