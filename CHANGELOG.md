@@ -6,7 +6,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
-[0.0.1] - 2023-06-25
+## [0.0.2] - 2023-06-27
+
+### Changed
+
+- Refactor auth
+
+## [0.0.1] - 2023-06-25
 
 ### Added
 
