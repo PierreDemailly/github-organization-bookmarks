@@ -19,7 +19,7 @@ mkdir myAwesomeBookmarks
 cd myAwesomeBookmarks
 ```
 
-Run the script, it will generate a `html` file
+Run the script, it will generate a `html` file.<br>
 For instance, if you want to generate bookmarks for all repositories within **NodeSecure** organization:
 
 ```bash
