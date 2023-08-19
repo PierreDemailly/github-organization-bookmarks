@@ -1,6 +1,6 @@
 {
   "name": "github-organization-bookmarks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generate bookmarks that includes all repositories in a GitHub organization",
   "scripts": {
     "lint": "eslint \"./**/**.{mjs,js}\"",
