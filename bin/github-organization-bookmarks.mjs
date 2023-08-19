@@ -58,7 +58,7 @@ const links = repoWithWorkspaces.map((repo) => {
   ];
 
   for (const workspace of repo.workspaces) {
-    const workspaceHtmlUrl = new URL(workspace, repo.html_url);
+    const workspaceHtmlUrl = new URL(workspace, repo.html_url + "/");
     workspaceFolder.push(
       `\t\t\t<DT><A HREF="${workspaceHtmlUrl}" ADD_DATE="${kTimestamp}" LAST_MODIFIED="${kTimestamp}">${workspace}</A>`
     );
